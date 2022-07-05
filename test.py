@@ -1,17 +1,12 @@
-za_waruldo = True
-if(za_waruldo):
-    print("Explosion!")
-else:
-    print("Subarashi...")
-for i in range(1, 131, 2):
-    print(i)
-    
-# Create the areas list
-areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
+# Create lists first and second
+first = [11.25, 18.0, 20.0]
+second = [10.75, 9.50]
 
-print(areas[2])
-# Print out last element from areas
-print(areas[9])
+# Paste together first and second: full
+full = first + second
 
-# Print out the area of the living room
-print(areas[5])    
+# Sort full in descending order: full_sorted
+full_sorted = sorted(full)
+
+# Print out full_sorted
+print(full_sorted)
